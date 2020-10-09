@@ -1,0 +1,11 @@
+# 5 Speed test
+#pip install speedtest-cli
+from speedtest import Speedtest
+st = Speedtest()
+
+print("Your Connection's Download speed is :",st.download())
+print("Your Connection's Upload speed is :",st.upload())
+#d = st.download() /1000000
+#u = st.upload() /1000000
+print("upload",u)
+print("download",d)
